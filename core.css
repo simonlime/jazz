@@ -1,0 +1,20 @@
+/* Phone */
+@media (max-width: 767px) {
+    .hide-on-phone {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 979px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+
+/* Desktop */
+@media (min-width: 980px) {
+    .hide-on-desktop {
+        display: none;
+    }
+}

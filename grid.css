@@ -1,0 +1,146 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.row, .row-r {
+    width: 960px;
+}
+
+.c1-1 {
+    width: 100%;
+}
+
+.c1-2 {
+    width: 50%;
+}
+
+.c1-3 {
+    width: 33.33333%;
+}
+
+.c2-3 {
+    width: 66.66666%;
+}
+
+.c1-4 {
+    width: 25%;
+}
+
+.c3-4 {
+    width: 75%;
+}
+
+.c1-5 {
+    width: 20%;
+}
+
+.c2-5 {
+    width: 40%;
+}
+
+.c3-5 {
+    width: 60%;
+}
+
+.c4-5 {
+    width: 80%;
+}
+
+.c1-6 {
+    width: 16.66666%;
+}
+
+.c5-6 {
+    width: 83.33333%;
+}
+
+.c1-8 {
+    width: 12.5%;
+}
+
+.c3-8 {
+    width: 37.5%;
+}
+
+.c5-8 {
+    width: 62.5%;
+}
+
+.c7-8 {
+    width: 87.5%;
+}
+
+.c1-10 {
+    width : 10%;
+}
+
+.c3-10 {
+    width: 30%;
+}
+
+.c7-10 {
+    width: 70%;
+}
+
+.c9-10 {
+    width: 90%;
+}
+
+.c1-12 {
+    width: 8.33333%;
+}
+
+.c5-12 {
+    width: 41.66666%;
+}
+
+.c7-12 {
+    width: 58.33333%;
+}
+
+.c11-12 {
+    width: 91.66666%;
+}
+
+.c1-24 {
+    width: 4.16666%;
+}
+
+.c5-24 {
+    width: 20.83333%;
+}
+
+.c7-24 {
+    width: 29.16666%;
+}
+
+.c11-24 {
+    width: 45.83333%;
+}
+
+.c13-24 {
+    width: 54.16666%;
+}
+
+.c17-24 {
+    width: 70.83333%;
+}
+
+.c19-24 {
+    width: 79.16666%;
+}
+
+.c23-24 {
+    width: 95.83333%;
+}
+
+/* Make column widths 100% for phones */
+@media (max-width: 767px) {
+    .row-r > [class *= 'c'] {
+        width: 100%;
+    }
+}
